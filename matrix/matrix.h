@@ -40,4 +40,19 @@ static void matrix_printer_2d(int n_rows, int n_cols, int *matrix){
 
 }
 
+static void transpose_of_matrix(int n_rows_org_mat, int n_cols_org_mat, int *matrix, int *t_matrix){
+  int *reference_mat_add, *reference_t_mat_add;
+  //reference_mat_add = matrix;
+  reference_t_mat_add = t_matrix;
+  for(int i=0; i<n_rows_org_mat; i++){
+    for(int j=0; j<n_cols_org_mat; j++){
+      *t_matrix = *matrix;
+      matrix++;
+      t_matrix+=n_rows_org_mat; 
+    }
+    reference_t_mat_add++;  
+    t_matrix=reference_t_mat_add;
+  }
+}
+
 
