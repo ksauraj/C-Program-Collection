@@ -16,8 +16,10 @@ int main(){
 
   // Now converting mat B to float type and storing it in mat C.
   float mat_c[3][4]; // Let's create a matrix with float data type...
-  covert_matrix_to_float(3, 4, (int*)&mat_b, (float*)&mat_c); // storing values of matrix B in matrix C 
+  convert_matrix_to_float(3, 4, (int*)&mat_b, (float*)&mat_c); // storing values of matrix B in matrix C 
   printf("\nMatrix C : \n");
   float_matrix_printer_2d(3, 4, (float*)&mat_c); // This function prints matrix having float values...
   return 0;
 }
+
+
