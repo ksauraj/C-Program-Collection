@@ -26,10 +26,10 @@ int main()
    while( guess!=number);
    if(nguesses>2)
    {
-    printf("CHUTIYE!! ek no guess krne m itna tym lg gya terko");
+    printf("BRUH!! ek no guess krne m itna tym lg gya terko");
    }
    else{
-    printf("awesome NIGGA!!! -_-");
+    printf("awesome MAN!!! -_-");
    }
     return 0;
 
