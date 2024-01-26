@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 int find_greatest_in_array(int *arr, int len){
   int num=*arr;
